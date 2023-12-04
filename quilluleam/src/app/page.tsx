@@ -130,7 +130,7 @@ export default function Home() {
                 Empieza a hacer preguntas
               </span>
               <span className="mt-2 text-zinc-700">
-                Es así de simple. Pruebe Quill hoy realmente le llevará menos
+                Es así de simple. Pruebe QuillUleam hoy realmente le llevará menos
                 de un minuto.
               </span>
             </div>
