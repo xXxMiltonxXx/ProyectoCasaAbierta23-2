@@ -4,6 +4,8 @@ import { ArrowRight } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import Image from "next/image";
 
+//pagina de inicio-Landing Page
+
 export default function Home() {
   return (
     <>
