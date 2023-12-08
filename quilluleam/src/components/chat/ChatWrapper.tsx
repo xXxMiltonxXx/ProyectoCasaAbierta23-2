@@ -39,10 +39,10 @@ const ChatWrapper = ({
           <div className='flex flex-col items-center gap-2'>
             <Loader2 className='h-8 w-8 text-blue-500 animate-spin' />
             <h3 className='font-semibold text-xl'>
-              Loading...
+              Cargando...
             </h3>
             <p className='text-zinc-500 text-sm'>
-              We&apos;re preparing your PDF.
+            Estamos preparando tu PDF.
             </p>
           </div>
         </div>
@@ -58,10 +58,10 @@ const ChatWrapper = ({
           <div className='flex flex-col items-center gap-2'>
             <Loader2 className='h-8 w-8 text-blue-500 animate-spin' />
             <h3 className='font-semibold text-xl'>
-              Processing PDF...
+              Procesando PDF...
             </h3>
             <p className='text-zinc-500 text-sm'>
-              This won&apos;t take long.
+            Esto no llevará mucho tiempo.
             </p>
           </div>
         </div>
@@ -77,20 +77,20 @@ const ChatWrapper = ({
           <div className='flex flex-col items-center gap-2'>
             <XCircle className='h-8 w-8 text-red-500' />
             <h3 className='font-semibold text-xl'>
-              Too many pages in PDF
+            Demasiadas páginas en PDF
             </h3>
             <p className='text-zinc-500 text-sm'>
-              Your{' '}
+              Su{' '}
               <span className='font-medium'>
                 {isSubscribed ? 'Pro' : 'Free'}
               </span>{' '}
-              plan supports up to{' '}
+              El plan admite hasta{' '}
               {isSubscribed
                 ? PLANS.find((p) => p.name === 'Pro')
                     ?.pagesPerPdf
                 : PLANS.find((p) => p.name === 'Free')
                     ?.pagesPerPdf}{' '}
-              pages per PDF.
+              páginas por PDF.
             </p>
             <Link
               href='/dashboard'
